@@ -636,8 +636,7 @@ img {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
@@ -685,6 +684,8 @@ img {
 .close-btn:hover,
 .close-btn:focus {
   background-color: #404bbf;
+  border: none;
+  fill: #ffffff
 }
 
 .close-btn-icon {
@@ -710,10 +711,8 @@ img {
   margin-bottom: 16px;
 }
 
-.review-form {
-}
 .review-form-field-wrapper {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .review-form-field-label {
   color: var(--LIGHT-SLATE, #8e8f99);
@@ -805,13 +804,14 @@ img {
   fill: transparent;
   margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .review-form-checkbox:checked
   + .review-form-checkbox-label
   > .review-form-own-checkbox {
   background-color: #404bbf;
   fill: #F4F4FD;
+  border: none;
 }
 .review-form-checkbox:focus
   + .review-form-checkbox-label
@@ -833,7 +833,7 @@ img {
   text-decoration-line: underline;
 }
 .review-form-checkbox-wrapper {
-  margin-bottom: 16px;
+  margin-bottom: 24px;
 }
 .review-form-submit {
   min-width: 169px;
