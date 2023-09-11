@@ -768,6 +768,9 @@ img {
 .review-form-field-wrapper {
   margin-bottom: 8px;
 }
+.review-form-field-wrapper-bottom {
+  margin-bottom: 16px;
+}
 
 .review-form-comment {
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
