@@ -473,10 +473,11 @@ img {
   text-transform: uppercase;
   display: inline-block;
 }
-.footer-social {
+/*.footer-social {
   display: flex;
   flex-direction: column;
 }
+*/
 .footer-social-text {
   color: #ffffff;
   font-weight: 500;
@@ -486,7 +487,6 @@ img {
 }
 .footer-social-list {
   display: flex;
-  width: 288px;
   height: 40px;
   gap: 16px;
 }
@@ -534,8 +534,7 @@ img {
 }
 
 .footer-form-section {
-  display: flex;
-  flex-direction: column;
+  margin-left: 80px;
 }
 
 .footer-form-field {
@@ -543,7 +542,6 @@ img {
   font-size: 16px;
   font-weight: 500;
   color: #ffffff;
-  margin-left: 80px;
   margin-bottom: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -553,7 +551,6 @@ img {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  margin-left: 80px;
 }
 
 .footer-form-style::placeholder {
