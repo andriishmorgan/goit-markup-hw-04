@@ -23,6 +23,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   
@@ -30,7 +31,7 @@
       <div class="container container-header">
         <!--Studio, Portfolio, Contacts, E-mail, Phone -->
         <nav class="header-nav">
-          <a href="./index.html" class="logo"
+          <a class="logo" href="./index.html" 
             >WEB<span class="logo-span">Studio</span></a
           >
           <ul class="menu-nav">
@@ -45,6 +46,7 @@
             <li><a class="header-navigation" href="">Contacts</a></li>
           </ul>
         </nav>
+       
         <address class="adress-style">
           <ul class="header-adress">
             <li>
@@ -61,6 +63,14 @@
             </li>
           </ul>
         </address>
+        <button class="open-mobile-menu-btn">
+          <svg 
+            class="open-mobile-menu-icon"
+            width="24"
+            height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
@@ -361,7 +371,11 @@
           <ul class="portfolio-item">
             <li class="portfolio-list">
               <div class="portfolio-container-text">
-                <img src="./images/img_one.jpg" alt="Bank App" width="360" />
+                <img 
+                src="./images/img_one.jpg" 
+                alt="Bank App" 
+                width="288" 
+                />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -378,7 +392,7 @@
                 <img
                   src="./images/img_two.jpg"
                   alt="Cash Payment"
-                  width="360"
+                  width="288"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -396,7 +410,7 @@
                 <img
                   src="./images/img_three.jpg"
                   alt="Meditation App"
-                  width="360"
+                  width="288"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -411,7 +425,10 @@
             </li>
             <li class="portfolio-list">
               <div class="portfolio-container-text">
-                <img src="./images/img_four.jpg" alt="Taxi" width="360" />
+                <img 
+                  src="./images/img_four.jpg"
+                  alt="Taxi" 
+                  width="288" />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -425,7 +442,10 @@
             </li>
             <li class="portfolio-list">
               <div class="portfolio-container-text">
-                <img src="./images/img_five.jpg" alt="Screen" width="360" />
+                <img 
+                  src="./images/img_five.jpg"
+                  alt="Screen"
+                  width="288" />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -442,7 +462,7 @@
                 <img
                   src="./images/img_six.jpg"
                   alt="Online Cours"
-                  width="360"
+                  width="288"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -522,7 +542,7 @@
       </div>
     </footer>
     <!--MODAL-->
-    <div class="backdrop">
+    <!--<div class="backdrop">
       <div class="modal">
         <button class="close-btn"
         type="button"
@@ -640,6 +660,95 @@
           </button>
         </form>
       </div>
-    </div>  
+    </div>-->
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu">
+      <botton class="mobile-menu-close-btn">
+        <svg 
+        class="mobile-menu-close-icon" 
+        width="24" 
+        height="24">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </botton>
+      <nav>
+        <ul class="menu-nav-mobile">
+            <li>
+              <a
+                class="header-navigation header-navigation-active"
+                href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li><a class="header-navigation" href="">Portfolio</a></li>
+            <li><a class="header-navigation" href="">Contacts</a></li>
+          </ul>
+        </nav>
+       
+        <address class="adress-style">
+          <ul class="header-adress-mobile">
+            <li>
+              <a class="header-navigation-address" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li>
+              <a
+                class="header-navigation-address-color"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="section-three-social-list-mobile">
+                  <li class="section-three-social-list-item">
+                    <a href="" class="section-three-social-link">
+                      <svg
+                        class="section-three-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="section-three-social-list-item">
+                    <a href="" class="section-three-social-link">
+                      <svg
+                        class="section-three-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="section-three-social-list-item">
+                    <a href="" class="section-three-social-link">
+                      <svg
+                        class="section-three-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="section-three-social-list-item">
+                    <a href="" class="section-three-social-link">
+                      <svg
+                        class="section-three-social-icon"
+                        width="16"
+                        height="16"
+                      >
+                        <use href="./images/icons.svg#icon-linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+        </address>
+      </nav>
+    </div>
   </body>
 </html>
