@@ -34,7 +34,7 @@
 
 /* TABLET */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .goals-list {
     display: flex;
     flex-direction: row;
@@ -65,6 +65,35 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-top: 8px;
+  }
+}
+
+/*--DEKSTOP--*/
+
+@media screen and (min-width: 1158px) {
+  .goals-item {
+    width: calc((100% - 72px) / 4);
+  }
+  .goals-list {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+  }
+  .section-two-icons {
+    display: flex;
+  }
+  .section-two-text-icon {
+    background-color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    height: 112px;
+    width: 264px;
+    border-radius: 4px;
+    border: 1px solid var(--LIGHT-SLATE, #8e8f99);
+    background: var(--CLOUD, #f4f4fd);
   }
 }
 

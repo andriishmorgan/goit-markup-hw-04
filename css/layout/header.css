@@ -52,9 +52,9 @@
   z-index: 999;
   width: 100%;
   height: 100%;
-  background-color: #f4f4fd;
   transform: translateX(100%);
   transition: transform 250ms ease-out;
+  background: #fff;
 }
 
 .mobile-menu.is-open {
@@ -65,14 +65,17 @@
   position: absolute;
   top: 32px;
   right: 32px;
-  border: none;
+  border: 1px solid #e7e9fc;
+  border-radius: 50%;
   background-color: transparent;
-  padding: 0;
+  padding: 8px;
   line-height: 0;
 }
 
 .mobile-menu-close-icon {
   fill: #2e2f42;
+  width: 8px;
+  height: 8px;
 }
 
 .menu-nav-mobile {
@@ -223,6 +226,18 @@
   .header-navigation:hover,
   .header-navigation:focus {
     color: #404bbf;
+  }
+}
+
+/*--DEKSTOP--*/
+
+@media screen and (min-width: 1158px) {
+  .menu-nav {
+    display: flex;
+  }
+  .header-adress {
+    display: flex;
+    flex-direction: row;
   }
 }
 

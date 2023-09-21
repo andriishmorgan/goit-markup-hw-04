@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  align-items: flex-start;
+  align-items: center;
   margin-top: 72px;
 }
 
@@ -64,14 +64,34 @@
 
 /* TABLET */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1157px) {
   .portfolio-item {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
     justify-content: center;
+  }
+  .portfolio-list {
+    width: calc((100%-48px) / 2);
+  }
+}
+
+/*--DEKSTOP--*/
+
+@media screen and (min-width: 1158px) {
+  .portfolio-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+  }
+
+  .portfolio-list {
+    width: calc((100% - 48px) / 3);
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
