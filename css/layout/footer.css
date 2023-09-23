@@ -81,7 +81,6 @@
 .footer-form-section {
   display: flex;
   flex-direction: column;
-  width: 288px;
   align-items: center;
 }
 
@@ -187,6 +186,20 @@
     display: flex;
     flex-direction: row;
     align-items: baseline;
+  }
+  .footer-form-style {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .footer-container-logo-text {
+    align-items: start;
+  }
+  .footer-social {
+    align-items: start;
+  }
+  .footer-form-section {
+    align-items: start;
   }
 }
 /* .footer-text {

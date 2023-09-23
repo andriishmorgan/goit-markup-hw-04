@@ -93,6 +93,14 @@
   }
 }
 
+/*--DEKSTOP--*/
+
+@media screen and (min-width: 1158px) {
+  .modal {
+    top: 35%;
+  }
+}
+
 /*--Modal form--*/
 
 .review-form-description {
