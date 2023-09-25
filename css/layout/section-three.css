@@ -31,6 +31,10 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .section-three-name {
@@ -85,6 +89,9 @@
     column-gap: 24px;
     row-gap: 64px;
     justify-content: center;
+  }
+  .section-three {
+    width: 264px;
   }
 }
 

@@ -13,6 +13,7 @@
   margin: 0 auto;
   text-align: center;
   padding: 72px 0;
+  max-width: 320px;
 }
 
 /* 2x + */
@@ -70,6 +71,7 @@
     margin: 0 auto;
     text-align: center;
     padding: 112px 0;
+    max-width: 768px;
   }
 
   /* 2x + */
@@ -118,13 +120,13 @@
         rgba(46, 47, 66, 0.7)
       ),
       url(../../images/people-office-decs.jpg);
-    height: 436px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
     text-align: center;
-    padding: 118px 0;
+    padding: 188px 0;
+    max-width: 1440px;
   }
 
   /* 2x + */
